@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/webgl-chat'));
 app.use('/public', express.static(__dirname + '/public'));
 
 var maze = undefined;
-var mazeDimension = 20;
+var mazeDimension = 49;
 maze = generateSquareMaze(mazeDimension);
 
 var mazeStr = "";
